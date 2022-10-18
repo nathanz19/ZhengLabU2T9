@@ -1,6 +1,8 @@
 public class RandomNum {
     public static void main(String [] args) {
-        double a = Math.random() * 75 + 25;
-        System.out.println(a);
+        double angle = 30;
+        double radianAngle = Math.toRadians(angle);
+        System.out.println(radianAngle);
+        }
+
     }
-}
